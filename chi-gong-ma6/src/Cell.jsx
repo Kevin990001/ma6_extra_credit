@@ -8,7 +8,7 @@ const Cell = () => {
 
   const toggleCell = () => {
     setIsOn(prevIsOn => !prevIsOn);
-    handleCellToggle(!isOn); // Toggle the cell and inform the Grid component
+    handleCellToggle(!isOn); 
   };
 
   return (
